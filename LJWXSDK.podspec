@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
     puts 'Notice:LJWXSDK is zip now'
     puts '-------------------------------------------------------------------'
 
-    zip.ios.vendored_frameworks = '*.framework'
+    zip.ios.vendored_frameworks = '*/*'
     # s.source           = { :git => 'https://github.com/aiqiuqiu/LJPod.git', :tag => s.version.to_s }
   end
 
